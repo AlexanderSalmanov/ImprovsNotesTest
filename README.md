@@ -14,3 +14,4 @@
 12. Locate `/login` and authenticate with the creds of your superuser you've created in step 8; copy `access` token from the response.
 13. Locate `Authorize` bar in the upper section of the Swagger docs page, and provide the access token in the format: `Bearer {token}`.
 14. Test any other endpoints you wish!
+15. <OPTIONAL> if you want to run tests, open interactive shell for `api` container (covered in steps 6-7), and run `pytest`.
