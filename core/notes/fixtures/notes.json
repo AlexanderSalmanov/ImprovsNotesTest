@@ -1,7 +1,7 @@
 [
 {
     "model": "notes.notes",
-    "pk": 3,
+    "pk": 1,
     "fields": {
         "title": "Note 3",
         "content": "Take a break",
@@ -10,7 +10,7 @@
 },
 {
     "model": "notes.notes",
-    "pk": 4,
+    "pk": 2,
     "fields": {
         "title": "Updated MORE",
         "content": "Acknowledge your accomplishments",
@@ -19,7 +19,7 @@
 },
 {
     "model": "notes.notes",
-    "pk": 5,
+    "pk": 3,
     "fields": {
         "title": "Sigma quote",
         "content": "Believe in yourself",
@@ -28,7 +28,7 @@
 },
 {
     "model": "notes.notes",
-    "pk": 5,
+    "pk": 4,
     "fields": {
         "title": "Motivation",
         "content": "Stay focused",

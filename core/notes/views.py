@@ -2,8 +2,6 @@ import logging
 
 from drf_yasg import openapi
 from drf_yasg.utils import swagger_auto_schema
-from django.views.decorators.cache import cache_page
-from django.utils.decorators import method_decorator
 from django.core.cache import cache
 
 from rest_framework import permissions, status
@@ -85,7 +83,6 @@ class NotesListCreateView(APIView, CacheInvalidationMixin):
 
         notes = Notes.objects.filter(created_by=request.user)
         serializer = NotesSerializer(notes, many=True)
-        import pdb; pdb.set_trace()
         cache.set(cache_key, serializer.data, timeout=60 * 15)
         logger.info('Notes cache set for User %s', request.user.id)
         return Response(data=serializer.data, status=status.HTTP_200_OK)
