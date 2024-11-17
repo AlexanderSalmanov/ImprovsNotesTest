@@ -1,0 +1,47 @@
+[
+{
+    "model": "notes.notes",
+    "pk": 3,
+    "fields": {
+        "title": "Note 3",
+        "content": "Take a break",
+        "created_by": 1
+    }
+},
+{
+    "model": "notes.notes",
+    "pk": 4,
+    "fields": {
+        "title": "Updated MORE",
+        "content": "Acknowledge your accomplishments",
+        "created_by": 1
+    }
+},
+{
+    "model": "notes.notes",
+    "pk": 5,
+    "fields": {
+        "title": "Sigma quote",
+        "content": "Believe in yourself",
+        "created_by": 1
+    }
+},
+{
+    "model": "notes.notes",
+    "pk": 5,
+    "fields": {
+        "title": "Motivation",
+        "content": "Stay focused",
+        "created_by": 1
+    }
+},
+{
+    "model": "notes.notes",
+    "pk": 5,
+    "fields": {
+        "title": "Chores",
+        "content": "Take out the trash!",
+        "created_by": 1
+    }
+}
+]
